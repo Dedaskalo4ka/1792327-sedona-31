@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Оксана Раззакова](https://up.htmlacademy.ru/htmlcss/31/user/1792327).
-* Наставник: `Неизвестно`.
+* Наставник: [Artem Ryzhov] (https://htmlacademy.ru/profile/id1387905).
 
 ---
 
