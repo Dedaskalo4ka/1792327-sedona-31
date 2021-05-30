@@ -26,27 +26,27 @@
 <!-- Нужен ли здесь неупорядоченный список?-->
     
         <form action="https://echo.htmlacademy.ru/courses" method="post">
-            <p><i>Инфраструктура:</i></p>
-            <!---Какое слова должно стоять в name?--->
-            <select name="type" multiple>
-              <option selected>Бассейн</option>
-              <option>Парковка</option>
-              <option>Wi-Fi</option>
-            </select>
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+    <label><input type="checkbox" name="equipment" checked value="Бассейн">Бассейн</label>
+    <label><input type="checkbox" name="equipment" value="Парковка">Парковка</label>
+    <label><input type="checkbox" name="equipment" value="Wi-Fi">Wi-Fi</label>
+          </fieldset>
 
-            <p><i>Тип жилья:</i></p>
-            <select name="type" multiple>
-              <option selected>Гостиница</option>
-              <option selected>Мотель</option>
-              <option selected>Апартаменты</option>
-            </select>
-<!--Как задать диапазон?-->
-            <p><i>Стоимость в сутки:</i></p>
-            <select name="range">
-                <option>от 0</option>
-                <option>до 3000</option>
-                </select>
+          <fieldset>
+            <legend>Тип жилья:</legend>
+    <label><input type="checkbox" name="type" checked value="Гостиница">Гостиница</label>
+    <label><input type="checkbox" name="type" checked value="Мотель">Мотель</label>
+    <label><input type="checkbox" name="type" checked value="Апартаменты">Апартаменты</label>
+          </fieldset>
+
+           <fieldset> 
+            <legend>Стоимость в сутки, <span>₽</span></legend>
+            <label>от<input type="text" value="0"></label>
+            <label>до<input type="text" value="3000"></label>
                 <input type="submit" value="Показать">
+            </fieldset>
+           
         </form>
 </section>
 <section>
